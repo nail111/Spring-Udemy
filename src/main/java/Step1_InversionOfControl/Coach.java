@@ -1,4 +1,4 @@
-package Step1;
+package Step1_InversionOfControl;
 
 public interface Coach {
     public String getDailyWorkOut();

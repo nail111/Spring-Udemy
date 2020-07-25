@@ -1,4 +1,4 @@
-package Step1;
+package Step1_InversionOfControl;
 
 public class FootballCoach implements Coach{
     public String getDailyWorkOut() {

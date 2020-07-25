@@ -1,4 +1,4 @@
-package Step2;
+package Step2_DependencyInjection;
 
 public class BaseballCoach implements Coach{
     private FortuneService fortuneService;
