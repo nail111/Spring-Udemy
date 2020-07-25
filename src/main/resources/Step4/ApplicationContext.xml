@@ -6,9 +6,12 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-    <bean id = "myFortune" class = "Step3_SetterInjection.Fortune" > </bean>
-    <bean id = "myCricketCoach" class = "Step3_SetterInjection.CricketCoach">
+
+    <bean id = "myFortune" class = "Step4_LiteralInjection.Fortune"></bean>
+    <bean id = "myCricketCoach" class = "Step4_LiteralInjection.CricketCoach">
         <property name="fortune" ref="myFortune"/>
+        <property name="email" value="nail@mail.ru"/>
+        <property name="team" value="My Team"/>
     </bean>
 
 </beans>
