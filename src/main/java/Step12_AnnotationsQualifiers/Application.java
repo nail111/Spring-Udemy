@@ -33,7 +33,6 @@ class Football {
     public String getFortune1() {
        return fortune3.getFortune();
     }
-
 }
 
 

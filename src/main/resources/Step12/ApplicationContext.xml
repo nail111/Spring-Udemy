@@ -9,5 +9,4 @@
 
     <context:component-scan base-package="Step12_AnnotationsQualifiers"/>
 
-
 </beans>
