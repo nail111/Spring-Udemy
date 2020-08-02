@@ -30,6 +30,7 @@ class Baseball {
 
 public class Application {
     public static void main(String[] args) {
+
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Baseball.class);
         Baseball baseball = context.getBean("myGame",Baseball.class);
         System.out.println(baseball.text());
